@@ -13,7 +13,7 @@ Day one of learning JavaScript
 -----Data Types In JavaScript -----
 
 string ==> represent a text in javascript
-number
+number ==> a number represent numeric data in a javaScript
 null
 undefined
 boolean
@@ -35,3 +35,19 @@ console.log(`i'am using template strings to handle the apostrophes`); //template
 //this process is also called string concatenation
 console.log("super" + "man");
 console.log("1" + "1"); //give us a string of 11
+
+//Number
+console.log(123456789);
+
+//Adding numbers together
+//number in javascript behave just like number in math
+console.log(1 + 1); //output
+
+//Subtracting, multiplying and dividing numbers
+//You can also subtract, multiply or even divide the numbers with -, * and / respectively.
+console.log(22 - 2);
+console.log(22 * 2);
+console.log(22 / 2);
+
+//You can also find the remainder of a number with the modulus (%) operator.
+console.log(22 % 5);
