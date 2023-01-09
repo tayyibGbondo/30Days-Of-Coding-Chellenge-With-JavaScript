@@ -16,7 +16,7 @@ string ==> represent a text in javascript
 number ==> a number represent numeric data in a javaScript
 null
 undefined
-boolean
+boolean Booleans are very much like light switches. They can only be “switched on” (true) or “switched off” (false).
 bigInt
 symbol
 
@@ -51,3 +51,8 @@ console.log(22 / 2);
 
 //You can also find the remainder of a number with the modulus (%) operator.
 console.log(22 % 5);
+
+//Boolean
+//Booleans are very much like light switches. They can only be “switched on” (true) or “switched off” (false).
+console.log(true);
+console.log(false);
