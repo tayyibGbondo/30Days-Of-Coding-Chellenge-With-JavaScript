@@ -1,0 +1,4 @@
+/*
+DAY 2 OF LEARNING JAVASCRIPT
+
+ */
