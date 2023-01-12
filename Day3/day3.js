@@ -71,3 +71,83 @@ const ten = (_) => {
 console.log(ten());
 
 //
+
+//Object
+const bag = {
+  book: "note book",
+  pen: 2,
+  computer: {
+    model: "Dell",
+    color: "black",
+    storage: 250,
+    processor: "2hz",
+  },
+  charger: 1,
+  takeCare: function () {
+    console.log("hello there im inside of an object");
+  },
+  fruit: ["mango", "banana", "plantain", "apple"],
+};
+
+const propa = bag.computer;
+
+//Deleting properties
+delete bag.computer.processor;
+
+console.log(propa);
+
+/*
+Exercise
+Practice making objects. You need to use them a lot when you code for real. D8o the following:
+
+Make an empty object.
+Make a property for your object that can be accessed with a dot notation. Get the value of this property.
+Make a property for your object that can only be accessed with the bracket notation. Get the value of this property.
+Set the value of a property with the dot notation.
+Set the value of a property with the square bracket notation.
+Make a method. Call this method.
+Make a method that takes in an argument. Call this method.
+
+*/
+
+const soup = {
+  maggi: "ami maggi",
+  onion: 2,
+};
+const soupAnswer = soup["maggi"];
+console.log(soupAnswer);
+
+/*
+Exercise 
+
+James is 22 years old, Valerie is 25 years old, Kenneth is 27 years old. Answer the following questions with the above code:
+
+Make an if/else statement to check if you are younger than James.
+Make an else if statement within your if/else to check if you are older than Valerie.
+Make another else if statement to check if you’re as old as Kenneth.
+When you do the above exercise, try comparing values with:
+
+> and >=
+< and <=
+===
+!==
+Answer the rest of the questions below with reference to the following code: 
+
+*/
+
+const james = 22;
+const valerie = 25;
+const kenneth = 27;
+const me = 19;
+
+if (me < james) {
+  console.log("Am Younger than James");
+} else if (me > valerie) {
+  console.log("older than Valerie");
+} else if (me >= kenneth) {
+  console.log("as old as kenneth");
+}
+
+//The NOT operator
+
+console.log(!!"");
