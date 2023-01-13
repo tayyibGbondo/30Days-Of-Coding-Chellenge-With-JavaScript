@@ -151,3 +151,7 @@ if (me < james) {
 //The NOT operator
 
 console.log(!!"");
+
+//Selecting an element
+const li = document.querySelector("#rocket");
+console.log(li);
