@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  bottom: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* the offsite container */
+.offsite-container {
+  background-color: rgb(8, 2, 44);
+  position: fixed;
+  top: 0;
+  left: -14rem;
+  width: 14rem;
+}
+.nav ul {
+  padding: 10px;
+  margin-left: 3.5rem;
+  margin-top: 10rem;
+}
+.nav li {
+  margin-top: 15px;
+}
+.nav a {
+  color: rgb(141, 141, 141);
+  font-size: 23px;
+  transition: all 0.4s ease-in-out;
+}
+.nav a:hover {
+  color: rgb(179, 176, 176);
+  display: block;
+  transform: scale(1.03);
+}
+
+/*the Main Container */
+
+.site-container {
+  background-color: rgb(119, 190, 167);
+  padding: 10px;
+  width: 100%;
+}
+.site-container h1 {
+  color: rgb(8, 2, 44);
+  font-size: 50px;
+  padding: 10px;
+}
+.site-container button {
+  background-color: rgb(8, 2, 44);
+  color: white;
+  font-size: 30px;
+  padding: 5px 25px;
+  border-radius: 6px;
+}
+.site-container button:focus {
+  border: white solid 3px;
+}
+
+/*Translating both the nav container and main container*/
+
+.offsite-is-open .offsite-container,
+.offsite-is-open .site-container {
+  transform: translateX(14rem);
+}
