@@ -34,3 +34,45 @@ console.log(theStrings);
 const theForth = (theStrings[4] = "five");
 const theSixth = (theStrings[5] = "Six");
 console.log(theStrings);
+
+const doubleArray = [
+  {
+    nickname: "tayyib 4 tech",
+    skills: [
+      "html",
+      "css",
+      "javaScript",
+      {
+        projects: { html: "landing page", javascript: ["slider", "popover"] },
+      },
+    ],
+    bestFriends: function (main, side) {
+      return "the name of my best friends are " + main + " and  " + side;
+    },
+  },
+];
+
+const arrayValue = doubleArray.length;
+console.log(arrayValue);
+
+const nameOFFriends = doubleArray[0].bestFriends("sulaiman", "mohamed conteh");
+console.log(nameOFFriends);
+
+const mySkills = doubleArray[0].skills;
+const myProject = doubleArray[0].skills[0];
+console.log(mySkills);
+console.log(myProject);
+
+//Back to object
+const anotherObject = [
+  {
+    id: 1,
+    productName: "computer",
+    type: "electronic",
+    label: "dell",
+    color: "gray",
+    storage: 599,
+    batteryLife: "24hrs",
+    inbuild: false,
+  },
+];
